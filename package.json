@@ -1,9 +1,19 @@
 {
-  "name": "4.1-express",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "4.1-express",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo 'testing!!!!'",
+        "dev": "nodemon ./bin/www app.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
 }
